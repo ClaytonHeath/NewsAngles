@@ -49,7 +49,7 @@ print(headlines)
 def generate_editor(headlines):
 
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo", ##choose "gpt-4" or "gpt-3.5-turbo'
+        model="gpt-4", ##choose "gpt-4" or "gpt-3.5-turbo'
         messages=[
             {"role": "system", "content": "You are an experienced senior news editor"},
             {"role": "user", "content": "Assess the following news headlines and, for each, make dot point notes on potential unique and engaging reporting angles that a journalist could follow up. Be specific and use questions as a way of illustrating angles. The headlines are:"},

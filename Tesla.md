@@ -1,31 +1,41 @@
 # Tesla
 
-Headline 1: TSLA Model Y wait times lengthen. Piper Sandler reiterates call for 65% rally
-- Investigate the reasons behind the lengthening wait times. Are there supply chain issues? Stronger-than-expected demand? Delays in production?
-- Interview Tesla customers who have experienced longer wait times. How have they been affected by the delays? Are they still committed to purchasing a Model Y?
-- Explore the potential impact of longer wait times on Tesla's stock value and financial performance. 
-- Speak to industry experts and analysts about Piper Sandler's call for a 65% rally. Is this realistic? What factors could contribute to or hinder such a rally?
+Headline: 'TSLA Model Y wait times lengthen. Piper Sandler reiterates call for 65% rally'
 
-Headline 2: Ex-Tesla worker seeks third trial in race bias case after $3.2 mln award
-- Investigate the details of the original case and the subsequent appeals. What evidence was presented? What factors contributed to the verdicts and appeals?
-- Interview the ex-Tesla worker and their legal team. What are their reasons for seeking a third trial? What do they hope to achieve?
-- Explore broader issues of race bias in the tech industry. Are there systemic issues that need to be addressed? What steps can companies take to ensure a more inclusive workplace?
-- Speak to current and former Tesla employees about their experiences with race bias. Are there patterns of discrimination that need to be addressed?
+- Examine the reasons behind the longer wait times - is it due to supply chain issues, high demand, or manufacturing constraints?
+- How does this align with the broader context of the EV market and demand for electric vehicles?
+- Are Tesla competitors experiencing similar wait times, and how does this compare to traditional carmakers' wait times?
+- What could be the potential impact on Tesla's reputation and customer satisfaction?
+- How did Piper Sandler determine their 65% rally prediction and what factors are taken into consideration?
 
-Headline 3: Elon Musk Teases a Tesla Cybertruck Tool Rack With Futuristic Shovels
-- Investigate the development of the tool rack and futuristic shovels. What benefits do they offer to Cybertruck owners? How do they fit into Tesla's overall strategy for the Cybertruck?
-- Interview designers and engineers involved in the development of the tool rack and shovels. What were the challenges they faced? What inspired the design?
-- Explore the potential market for Cybertruck accessories. Are there niche markets that Tesla can tap into? How important are these accessories for customer loyalty and retention?
-- Speak to Cybertruck owners and enthusiasts about their thoughts on the tool rack and shovels. What other accessories would they like to see from Tesla?
+Headline: 'Ex-Tesla worker seeks third trial in race bias case after $3.2 mln award'
 
-Headline 4: Elon Musk Said Tesla’s Semi Would Transform Trucking. 6 Years Later, Customers Are Still Waiting
-- Investigate the reasons behind delays in the Tesla Semi's launch. What challenges has Tesla faced in developing the vehicle? Are there regulatory issues that need to be addressed?
-- Interview prospective Tesla Semi customers. Are they still committed to purchasing the vehicle? What are their concerns about the delay in its launch?
-- Explore the potential impact of the Tesla Semi on the trucking industry. How would it transform the industry? What benefits would it bring?
-- Speak to industry experts and analysts about the challenges Tesla faces in launching the Semi. What needs to happen for it to be successful?
+- What led to the previous two trials and why is a third trial being sought?
+- How does the plaintiff's experience compare to other claims of racial bias within the company or industry?
+- Explore the broader issue of racial discrimination in the tech and automotive industries.
+- What are Tesla's policies on workplace discrimination and how do they compare to other companies?
+- How could this case potentially impact Tesla's brand image and employee diversity efforts?
 
-Headline 5: Black Former Tesla Worker Seeks New Trial After 'Poisonous Messaging'
-- Investigate the details of the original trial and subsequent appeals. What evidence was presented? What factors contributed to the decision? 
-- Interview the former Tesla worker and their legal team. What are their reasons for seeking a new trial? What new evidence do they have?
-- Explore broader issues of racism and discrimination in the tech industry. What steps can companies take to address and prevent such behavior?
-- Speak to current and former Tesla employees about their experiences with racism and discrimination. Are there patterns of behavior that need to be addressed?
+Headline: 'Elon Musk Teases a Tesla Cybertruck Tool Rack With Futuristic Shovels'
+
+- What features and design elements does the teased Cybertruck tool rack have?
+- How do these features compare to traditional tool racks and accessories for pickup trucks?
+- Is there potential for Tesla to develop a new market for automotive accessories with its unique designs?
+- How do these new features contribute to Tesla's goal of redefining the pickup truck market?
+- What has been the reaction from the Tesla community and potential Cybertruck customers?
+
+Headline: 'Elon Musk Said Tesla’s Semi Would Transform Trucking. 6 Years Later, Customers Are Still Waiting'
+
+- Investigate the reasons behind the delays in Tesla's Semi production and whether they can be attributed to technical, supply chain, or other issues.
+- Discuss the implications of these delays for customers who have placed pre-orders and how it may impact their businesses.
+- Examine the current state of the electric trucking market and potential competitors emerging in the space.
+- How are industry experts and analysts reacting to the delays and what are their revised expectations for the Tesla Semi's impact on the trucking industry?
+- Is there a trend of delays within Tesla's product lineup, and how does this reflect on the company's overall strategy and execution?
+
+Headline: "Black Former Tesla Worker Seeks New Trial After 'Poisonous Messaging'"
+
+- Explore the details of this specific case, such as the alleged discriminatory incidents and the plaintiff's work experience at Tesla.
+- Investigate how Tesla handled the initial claims and the legal proceedings thus far.
+- Contextualize this case within the broader discussion on diversity and inclusion in the tech and automotive industries.
+- Conduct interviews with experts or advocates on workplace discrimination for insights on handling such cases.
+- Assess the potential legal and reputational ramifications for Tesla as a result of this case and its ongoing nature.
