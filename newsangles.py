@@ -19,7 +19,7 @@ gnewsapikey = os.getenv("GNEWS_API_KEY")
 # Create a function that takes a topic as an argument and returns the top 5 news headlines
 def get_news(topic):
     # Create the URL with the topic and your API key
-    url = f"https://gnews.io/api/v4/search?q={topic}&lang=en&country=us&max=10&apikey={gnewsapikey}"
+    url = f"https://gnews.io/api/v4/search?q={topic}&lang=en&country=us&max=05&apikey={gnewsapikey}"
     # Fetch the data from the API
     with urllib.request.urlopen(url) as response:
         data = json.loads(response.read().decode("utf-8"))
@@ -52,10 +52,10 @@ def generate_editor(headlines):
         model="gpt-4", ##choose "gpt-4" or "gpt-3.5-turbo'
         messages=[
             {"role": "system", "content": "You are an experienced senior news editor"},
-            {"role": "user", "content": "Assess the following news headlines and, for each, make dot point notes on potential unique and engaging reporting angles that a journalist could follow up. Be specific and use questions as a way of illustrating angles. The headlines are:"},
+            {"role": "user", "content": "Assess the following news headlines and, for each, make dot point notes on potential unique and engaging reporting angles that a journalist could follow up. Focus on new and different perspectives. Be specific: use prompts, examples and questions as a way of illustrating angles. Create a possible hypothesis for each. The headlines are:"},
             {"role": "user", "content": f"Headlines: {headlines}"}
         ],
-        max_tokens=2000  # Increase this value to generate a longer article
+        max_tokens=4000  # Increase this value to generate a longer article
     )
 
     # Extract the generated text
