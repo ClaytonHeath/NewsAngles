@@ -13,9 +13,11 @@ ssl._create_default_https_context = ssl._create_unverified_context
 # Load the environment variables from the .env file
 load_dotenv()
 
-# Define the API keys
+# Define the API keys and LLM Model
 openai.api_key = os.getenv("OPENAI_API_KEY")
 gnewsapikey = os.getenv("GNEWS_API_KEY")
+gptmodel = os.getenv("LLM_MODEL")
+maxtokens = int(os.getenv("MAX_TOKENS"))
 
 # Create a function that takes a topic as an argument and returns the top 5 news headlines
 def get_news(topic):
@@ -86,13 +88,13 @@ def generate_editor(headline_strings):
 
     # Generate the text
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model=gptmodel, # Either gpt-3.5-turbo or gpt-4
         messages=[
             {"role": "system", "content": "You are an experienced senior news editor"},
             {"role": "user", "content": "Assess the following news headlines and, for each, make dot point notes on potential unique and engaging reporting angles that a journalist could follow up. Focus on new and different perspectives. Be specific: use prompts, examples and questions as a way of illustrating angles. Create a possible hypothesis for each. The headlines are:"},
             {"role": "user", "content": f"Headlines: {headlines_str}"}
         ],
-        max_tokens=3500
+        max_tokens=maxtokens # ~3500 for GPT-3.5-turbo or ~7500 for gpt-4
     )
 
     # Extract the generated text
