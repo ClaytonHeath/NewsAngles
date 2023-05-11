@@ -5,6 +5,7 @@ import json
 import urllib.request
 from dotenv import load_dotenv
 from tqdm import tqdm  # Import the tqdm library
+from urllib.parse import quote_plus
 import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
@@ -18,6 +19,8 @@ gnewsapikey = os.getenv("GNEWS_API_KEY")
 
 # Create a function that takes a topic as an argument and returns the top 5 news headlines
 def get_news(topic):
+    # URL encode the topic
+    topic = quote_plus(topic)
     # Create the URL with the topic and your API key
     url = f"https://gnews.io/api/v4/search?q={topic}&lang=en&country=us&max=05&apikey={gnewsapikey}"
     # Fetch the data from the API
@@ -49,13 +52,13 @@ print(headlines)
 def generate_editor(headlines):
 
     response = openai.ChatCompletion.create(
-        model="gpt-4", ##choose "gpt-4" or "gpt-3.5-turbo'
+        model="gpt-3.5-turbo", ##choose "gpt-4" or "gpt-3.5-turbo'
         messages=[
             {"role": "system", "content": "You are an experienced senior news editor"},
             {"role": "user", "content": "Assess the following news headlines and, for each, make dot point notes on potential unique and engaging reporting angles that a journalist could follow up. Focus on new and different perspectives. Be specific: use prompts, examples and questions as a way of illustrating angles. Create a possible hypothesis for each. The headlines are:"},
             {"role": "user", "content": f"Headlines: {headlines}"}
         ],
-        max_tokens=4000  # Increase this value to generate a longer article
+        max_tokens=3800  # Increase this value to generate a longer article
     )
 
     # Extract the generated text
