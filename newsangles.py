@@ -91,7 +91,7 @@ def generate_editor(headline_strings):
         model=gptmodel, # Either gpt-3.5-turbo or gpt-4
         messages=[
             {"role": "system", "content": "You are an experienced senior news editor"},
-            {"role": "user", "content": "Assess the following news headlines and, for each, make dot point notes on potential unique and engaging reporting angles that a journalist could follow up. Focus on new and different perspectives. Be specific: use prompts, examples and questions as a way of illustrating angles. Create a possible hypothesis for each. The headlines are:"},
+            {"role": "user", "content": "Assess each of the following news headlines for story leads. Your assessment should: Focus on new and different perspectives to reveal something not yet known; Form a hypothesis by being imaginitive and precise; Suggest, prompt and form questions to test the hypothesis. Use SCAMPER technique to unlock fresh angles. Record your assessment in dot point notes to offer reporting angles that a journalist could follow up. The headlines are:"},
             {"role": "user", "content": f"Headlines: {headlines_str}"}
         ],
         max_tokens=maxtokens # ~3500 for GPT-3.5-turbo or ~7500 for gpt-4
