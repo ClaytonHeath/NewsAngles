@@ -57,15 +57,15 @@ def fetch_data(url):
     return headlines
 
 # Ask the user for a choice
-choice = input("Would you like to enter a topic or choose a Top News category? (topic/category): ")
+choice = input("Would you like to enter a topic or choose a top news category? (1 - topic / 2 - news category): ")
 
-if choice.lower() == "topic":
+if choice.lower() == "1":
     # Ask the user for a topic
     topic = input("Enter a topic: ")
     # Call the function with the user input
     headlines = get_news(topic)
     file_name_base = topic
-elif choice.lower() == "category":
+elif choice.lower() == "2":
     # Ask the user for a category
     category = input("Enter a category (general, world, nation, business, technology, entertainment, sports, science, health): ")
     # Call the function with the user input
