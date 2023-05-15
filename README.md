@@ -13,7 +13,7 @@ Tech stack is Python, [OpenAI](https://platform.openai.com/docs/introduction) AP
 1. Clone the repo or download the ZIP
 2. Copy .env.example into .env 
 ```
-Copy .env.example into .env
+cp .env.template .env
 ```
 
 Your .env file should look like this:
