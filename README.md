@@ -2,7 +2,7 @@
 
 **Note:** A little heads-up: I'm not a coder, and I'm learning the ropes when it comes to the sacred art of crafting the README.md. But, hey, I've given it a good try, by stealing from the pros I've observed in the wilds of other repositories. If you spot something awry, or you've got a shiny new improvement, don't be shy - whip up a pull request (I think that's what it's called, right?) and make it better!
 
-I've written about this project over at Medium: [Article Headline](URL to come). You can hit me up on Twitter [@claytonhm](https://twitter.com/claytonhm)
+I've written about this project over at Medium: [I Made an AI News Editor-in-Chief Without Knowing How to Code](https://medium.com/the-generator/i-made-an-ai-news-editor-in-chief-without-knowing-how-to-code-593fac0a493e). You can hit me up on Twitter [@claytonhm](https://twitter.com/claytonhm)
 
 NewsAngles uses headlines from Gnews and GPT-4 from OpenAI API to give writers unique ideas and angles to write about.
 
